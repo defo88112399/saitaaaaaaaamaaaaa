@@ -146,11 +146,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 local final1 = game.ReplicatedStorage.Resources.KJEffects["KJWallCombo"].FinalImpact.Attachment:Clone()
 final1.Parent = game.Players.LocalPlayer.Character["Head"]
 for _, child in ipairs(final1:GetChildren()) do
@@ -213,13 +213,13 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(3)
+Anim:AdjustSpeed(5)
 
-task.wait(1.7)
+task.wait(1)
 
 local AnimAnim2 = Instance.new("Animation")
 
@@ -235,11 +235,11 @@ Anim:Stop()
 
 Anim2:Play()
 
-Anim2:AdjustSpeed(0)
+Anim2:AdjustSpeed(5)
 
 Anim2.TimePosition = startTime
 
-Anim2:AdjustSpeed(200)
+Anim2:AdjustSpeed(500)
 
     end
 
@@ -288,14 +288,14 @@ local startTime = 0.5
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 
 
-delay(1.8,function()
+delay(1.0,function()
 
     Anim:Stop()
 
@@ -348,11 +348,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 
 
     end
@@ -398,7 +398,7 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 message = "know your place fool.."
@@ -406,7 +406,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 Wait(10)
 Anim:Stop()
  
-Anim:AdjustSpeed(0.5)
+Anim:AdjustSpeed(0.9)
 
 loadstring(game:HttpGet('https://pastebin.com/raw/JKBEpaQW'))()
 
@@ -454,7 +454,7 @@ Anim:Play()
  
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.10)
+Anim:AdjustSpeed(5)
  message = "SCALE OF THE DRAGON"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 wait(3)
@@ -526,11 +526,11 @@ local startTime = 0.05
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 
 
     end
@@ -577,11 +577,11 @@ local startTime = 0.1
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.2)
+Anim:AdjustSpeed(5)
 message = "open."
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
@@ -638,17 +638,17 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
-Anim:AdjustSpeed(1)
-
-wait(0)
-
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 wait(0)
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
+
+wait(0)
+
+Anim:AdjustSpeed(5)
 
 loadstring(game:HttpGet('https://pastebin.com/raw/JKBEpaQW'))()
 
@@ -697,11 +697,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(5)
 
 wait(1)
 
@@ -753,11 +753,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.7)
+Anim:AdjustSpeed(5)
 
 
 delay(1.2, function()
@@ -812,11 +812,11 @@ local startTime = 1.3
 
 Anim:Play()
 
-Anim:AdjustSpeed(0)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1.2)
+Anim:AdjustSpeed(5)
 
 
     end
@@ -862,15 +862,15 @@ local Anim = Humanoid:LoadAnimation(AnimAnim)
 local startTime = 0
 
 
-wait(0.2)
+wait(0)
 
 Anim:Play()
 
-Anim:AdjustSpeed(2)
+Anim:AdjustSpeed(5)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(2)
+Anim:AdjustSpeed(5)
 
 
     end
