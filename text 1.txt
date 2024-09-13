@@ -146,11 +146,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 local final1 = game.ReplicatedStorage.Resources.KJEffects["KJWallCombo"].FinalImpact.Attachment:Clone()
 final1.Parent = game.Players.LocalPlayer.Character["Head"]
 for _, child in ipairs(final1:GetChildren()) do
@@ -213,11 +213,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 task.wait(1)
 
@@ -288,11 +288,11 @@ local startTime = 0.5
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
 delay(1.0,function()
@@ -348,11 +348,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
     end
@@ -398,7 +398,7 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 message = "know your place fool.."
@@ -454,7 +454,7 @@ Anim:Play()
  
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
  message = "SCALE OF THE DRAGON"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 wait(3)
@@ -526,11 +526,11 @@ local startTime = 0.05
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
     end
@@ -577,11 +577,11 @@ local startTime = 0.1
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 message = "open."
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
@@ -638,17 +638,17 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
-Anim:AdjustSpeed(5)
-
-wait(0)
-
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 wait(0)
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
+
+wait(0)
+
+Anim:AdjustSpeed(80)
 
 loadstring(game:HttpGet('https://pastebin.com/raw/JKBEpaQW'))()
 
@@ -697,11 +697,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 wait(1)
 
@@ -753,11 +753,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
 delay(1.2, function()
@@ -812,11 +812,11 @@ local startTime = 1.3
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
     end
@@ -866,11 +866,11 @@ wait(0)
 
 Anim:Play()
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(5)
+Anim:AdjustSpeed(80)
 
 
     end
