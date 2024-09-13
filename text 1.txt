@@ -1,5 +1,3 @@
-yo can you remove the crediting text
-
 local player = game.Players.LocalPlayer
 
 local playerGui = player.PlayerGui
@@ -1193,7 +1191,7 @@ local function createTextLayer(parent, offsetX, offsetY, color)
     textLayer.Size = UDim2.new(0, 300, 0, 50)  -- adjust the size of za text
     textLayer.Position = UDim2.new(0.5, -150 + offsetX, 0.2, offsetY)  -- apply offsets
     textLayer.AnchorPoint = Vector2.new(0.5, 0.5)  -- centert za text
-    textLayer.Text = "credits to tp exploit on discord"
+    textLayer.Text = ""
     textLayer.TextColor3 = color  -- color for za layer
     textLayer.TextSize = 25
     textLayer.Font = Enum.Font.IndieFlower  -- setting font to Indie Flower
